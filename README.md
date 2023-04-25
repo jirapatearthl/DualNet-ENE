@@ -56,35 +56,34 @@ deactivate
 Make sure the cloned git file are cloned with the following structure:
 
 ```
-<pre><font color="#12488B"><b>.</b></font>
-├── <font color="#12488B"><b>BASHSCRIPT</b></font>
-│   ├── <font color="#26A269"><b>BioImClass_preprocessing.sh</b></font>
+├── BASHSCRIPT
+│   ├── BioImClass_preprocessing.sh
 │   └── BioImClass_Test.sh
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
-├── <font color="#12488B"><b>src</b></font>
+├── src
 │   ├── calibration.py
 │   ├── contour_variance.py
 │   ├── data_ene_test.py
 │   ├── model_callbacks.py
-│   ├── <font color="#26A269"><b>model_multi_dual.py</b></font>
+│   ├── model_multi_dual.py
 │   ├── preprocessingroi_nrrd.py
-│   ├── <font color="#12488B"><b>__pycache__</b></font>
+│   ├── __pycache__
 │   │   ├── model_callbacks.cpython-39.pyc
 │   │   └── model_multi_dual.cpython-39.pyc
 │   ├── README.md
 │   └── test_ene.py
-└── <font color="#12488B"><b>utils</b></font>
+└── utils
     ├── crop_roi.py
     ├── dcm_to_nrrd.py
     ├── interpolate.py
-    ├── <font color="#12488B"><b>__pycache__</b></font>
+    ├── __pycache__
     │   ├── crop_roi.cpython-39.pyc
     │   ├── dcm_to_nrrd.cpython-39.pyc
     │   ├── interpolate.cpython-39.pyc
     │   └── util.cpython-39.pyc
-    └── util.py</pre>
+    └── util.py
 ```
 
 # Disclaimer
