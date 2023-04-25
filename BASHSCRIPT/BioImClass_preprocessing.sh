@@ -15,8 +15,8 @@ while getopts "i:o:h" option; do
       h|-help)
       echo "options:"
       echo "-h                		show brief help"
-      echo "-i=Input Folder Path        specify an action to use"
-      echo "-o=Output FOlder Path       specify a directory to store output in"
+      echo "-i=Input Folder Path        specify an input folder"
+      echo "-o=Output FOlder Path       specify a directory to store output"
       exit 0
          exit;;
      \?) # Invalid option
