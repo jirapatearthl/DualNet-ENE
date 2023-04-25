@@ -16,7 +16,7 @@ while getopts "i:o:h" option; do
       echo "options:"
       echo "-h                		show brief help"
       echo "-i=Input Folder Path        specify an input folder"
-      echo "-o=Output FOlder Path       specify a directory to store output"
+      echo "-o=Output Folder Path       specify a directory to store output"
       exit 0
          exit;;
      \?) # Invalid option
