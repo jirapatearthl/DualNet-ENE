@@ -15,8 +15,8 @@ while getopts "i:o:m:h" option; do
       echo "options:"
       echo "-h					show brief help"
       echo "-i=Input Folder Path to Preprocessing	specify an action to use"
-      echo "-o=Output Folder Path			specify a directory to store output in"
-      echo "-m=Input Folder to model (.h5)		specify a directory to store output in"
+      echo "-o=Output Folder Path			specify a directory to store output"
+      echo "-m=Input Folder to model (.h5)		specify location of the pretrain model"
       exit 0
          exit;;
      \?) # Invalid option
