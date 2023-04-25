@@ -51,6 +51,7 @@ The virtual environment can be deactivated by running:
 ```
 deactivate
 ```
+
 # Run
 
 Make sure the cloned git file are cloned with the following structure:
@@ -78,20 +79,18 @@ Make sure the cloned git file are cloned with the following structure:
     └── util.py
 ```
 To run the enter ./BASHSCRIPT folder using:
-
 ```
 cd ./BASHSCRIPT
 ```
 To run preprocessing by using the following command:
-
 ```
 bash ./BioImClass_preprocessing.sh -i [input folder] -o [output folder]
 ```
 To run test downloaded the model from ... and use the following command:
-
 ```
 bash ./BioImClass_test.sh -m [path to the trainined models] -i [path to the preprocesssed data] -o [output path]
 ```
+
 # Disclaimer
 The code and data of this repository are provided to promote reproducible research. They are not intended for clinical care or commercial use.
 
