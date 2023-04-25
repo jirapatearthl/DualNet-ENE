@@ -82,7 +82,7 @@ To run the enter ./BASHSCRIPT folder using:
 ```
 cd ./BASHSCRIPT
 ```
-To run preprocessing by using the following command:
+To run a preprocessing step use the following command:
 ```
 bash ./BioImClass_preprocessing.sh -i [input folder] -o [output folder]
 ```
