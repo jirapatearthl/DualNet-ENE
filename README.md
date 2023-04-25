@@ -69,20 +69,12 @@ Make sure the cloned git file are cloned with the following structure:
 │   ├── model_callbacks.py
 │   ├── model_multi_dual.py
 │   ├── preprocessingroi_nrrd.py
-│   ├── __pycache__
-│   │   ├── model_callbacks.cpython-39.pyc
-│   │   └── model_multi_dual.cpython-39.pyc
 │   ├── README.md
 │   └── test_ene.py
 └── utils
     ├── crop_roi.py
     ├── dcm_to_nrrd.py
     ├── interpolate.py
-    ├── __pycache__
-    │   ├── crop_roi.cpython-39.pyc
-    │   ├── dcm_to_nrrd.cpython-39.pyc
-    │   ├── interpolate.cpython-39.pyc
-    │   └── util.cpython-39.pyc
     └── util.py
 ```
 
