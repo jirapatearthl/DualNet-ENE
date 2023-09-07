@@ -105,7 +105,7 @@ docker container run -v "[input folder]:/Input" -v "[output path]:/Output" [Dock
 ```
 To run test downloaded the model and use the following command:
 ```
-docker run -v docker container run -v "[path to raw data]:/InputIM" -v "[path to the preprocessed data label]:/InputLA" -v "[output path]:/OUTTest" -v "[path to the trainined models]:/DualNetENE-20220208-1531.h5" [Docker Image ID]
+docker run -v docker container run -v "[path to raw data]:/InputIM" -v "[path to the preprocessed data label]:/InputLA" -v "[output path]:/OUTTest" -v "[path to the trainined models]:/DualNetENE-20220208-1531.h5" [Docker Image ID assocated with dockertest]
 ```
 
 # Disclaimer
