@@ -97,7 +97,7 @@ bash ./BioImClass_test.sh -m [path to the trainined models] -i [path to the prep
 
 Method 2 (Docker):
 
-To run download the docker image found here: ...
+To run download the docker image found here: https://hu-my.sharepoint.com/:f:/g/personal/likitlersuang_hms_harvard_edu/Eoid7QfBGOVKgYcimRuHP2MBafNnAEB_qrZb8AtfUoMDyw?e=MV2jnz
 
 To run a preprocessing step use the following command:
 ```
