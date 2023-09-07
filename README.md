@@ -54,7 +54,7 @@ deactivate
 
 # Run
 
-# Method 1 (natively):
+Method 1 (natively):
 
 Make sure the cloned git file are cloned with the following structure:
 
@@ -95,7 +95,7 @@ bash ./BioImClass_test.sh -m [path to the trainined models] -i [path to the prep
 
 * Model with weights used in manuscript can be found here: https://drive.google.com/file/d/1BL1s-0NtIbT0BTMBldUbDu_et5QesIzJ/view?usp=share_link (DualNetENE-20220208-1531.h5). Model was trained with Tensorflow v2.4.
 
-# Method 2 (Docker):
+Method 2 (Docker):
 
 To run download the docker image found here: ...
 
